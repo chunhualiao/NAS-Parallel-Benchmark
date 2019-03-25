@@ -59,6 +59,7 @@ clean:
 	- rm -f *~ */core */*~ */*.o */npbparams.h */*.obj */*.exe
 	- rm -f sys/setparams sys/makesuite sys/setparams.h
 	- rm -f {DC/,}ADC.{logf,view,dat,viewsz,groupby,chunks}.* 
+	- rm -f bin/*
 
 veryclean: clean
 	- rm -f config/make.def config/suite.def 
